@@ -7300,7 +7300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 39.0652 95.25 0)
 			(effects
 				(font
@@ -8651,7 +8651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 49.2252 95.25 0)
 			(effects
 				(font
