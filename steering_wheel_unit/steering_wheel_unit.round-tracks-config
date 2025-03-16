@@ -1,0 +1,7 @@
+Default	False	2.0	3
++12V	False	2.0	3
++3,3V	False	2.0	3
+GND	False	2.0	3
+VIN	False	2.0	3
+Vreg	True	2.0	3
+False	True	False

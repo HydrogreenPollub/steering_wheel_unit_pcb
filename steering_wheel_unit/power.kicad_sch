@@ -3533,6 +3533,16 @@
 		)
 		(uuid "c0a449a7-749f-439a-be53-93d8ac8b5628")
 	)
+	(label "VIN"
+		(at 184.15 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2b3b80d-b854-434c-b1fc-0ee11f106ee9")
+	)
 	(hierarchical_label "+3.3V"
 		(shape output)
 		(at 267.97 52.07 0)

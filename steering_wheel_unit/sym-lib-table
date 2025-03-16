@@ -31,4 +31,6 @@
   (lib (name "MPZ1608S601ATA00")(type "KiCad")(uri "${KIPRJMOD}/Lib/MPZ1608S601ATA00.kicad_sym")(options "")(descr ""))
   (lib (name "NX3215SA-32.768K-STD-MUA-14")(type "KiCad")(uri "${KIPRJMOD}/Lib/NX3215SA-32.768K-STD-MUA-14.kicad_sym")(options "")(descr ""))
   (lib (name "TPS62933DRLR")(type "KiCad")(uri "${KIPRJMOD}/Lib/TPS62933DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "UJ20-C-V-C-2-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/Lib/UJ20-C-V-C-2-SMT-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "UJ20-C-V-G-SMT-P16-TR")(type "KiCad")(uri "${KIPRJMOD}/Lib/UJ20-C-V-G-SMT-P16-TR.kicad_sym")(options "")(descr ""))
 )

@@ -6125,6 +6125,16 @@
 		)
 		(uuid "b32f6ded-b643-4c72-ab65-fb27d339710b")
 	)
+	(label "VREF"
+		(at 186.69 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b84121f3-11c2-41ac-8a27-124c5dd5b570")
+	)
 	(label "RESET"
 		(at 184.15 67.31 0)
 		(effects
