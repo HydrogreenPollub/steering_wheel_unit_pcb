@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "e67a02c2-4b18-4c94-a1a4-152ead495e73")
 	(paper "A4")
+	(title_block
+		(title "Steering_wheel_unit_io")
+		(date "2025-03-22")
+	)
 	(lib_symbols
 		(symbol "+3.3V_1"
 			(power)
@@ -1984,16 +1988,6 @@
 			)
 		)
 		(uuid "87ef0111-80af-443f-8304-c83a7d3b7d6f")
-	)
-	(text "super capacitors shutdown\n"
-		(exclude_from_sim no)
-		(at 263.144 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b0ff2f53-b087-4fd2-87c6-1770a0a6e61d")
 	)
 	(text "CAN Transceiver\n"
 		(exclude_from_sim no)

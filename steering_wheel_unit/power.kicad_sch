@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "009660f7-b182-4cce-b721-ceccda656994")
 	(paper "A4")
+	(title_block
+		(title "Steering_wheel_unit_pwr")
+		(date "2025-03-22")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2418,28 +2422,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "C_{dVdt} = C_{OUT} / 8.7 x 10^{3} x I_{INRUSH}"
-		(exclude_from_sim no)
-		(at 21.844 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e4467f3-fbff-42ec-9fa0-7568db1e8e7f")
-	)
-	(text "C_{dVdt} = 47 x 10^{-6} / 8.7 x 10^{3} x 2 = 2.7 nF"
-		(exclude_from_sim no)
-		(at 21.844 80.264 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45d3ce40-3960-4089-bcd7-16a904c9c085")
 	)
 	(text "Ideal diode circuit\n"
 		(exclude_from_sim no)

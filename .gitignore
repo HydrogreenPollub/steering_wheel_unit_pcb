@@ -19,3 +19,4 @@ auto_saved_files*
 *.ses
 *.zip
 *.lck
+/Production

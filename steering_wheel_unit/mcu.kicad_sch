@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "3b1dd1ee-80b9-463e-bbd7-a82f6cf1a022")
 	(paper "A4")
+	(title_block
+		(title "Steering_wheel_unit_mcu")
+		(date "2025-03-22")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -3579,6 +3583,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Mounting holes\n"
+		(exclude_from_sim no)
+		(at 93.726 94.234 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "1fdc63f1-f1eb-40de-83f0-3431939d5c16")
+	)
 	(text "MCU"
 		(exclude_from_sim no)
 		(at 137.16 20.066 0)
@@ -3609,7 +3623,7 @@
 		)
 		(uuid "89a89134-10de-4588-9ee8-924779c5fbf6")
 	)
-	(text "Programming jumpers"
+	(text "Programming buttons\n"
 		(exclude_from_sim no)
 		(at 32.512 17.272 0)
 		(effects
@@ -5097,7 +5111,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 73.66) (xy 166.37 77.47)
+			(xy 166.37 73.66) (xy 166.37 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5735,6 +5749,16 @@
 		)
 		(uuid "d2e59039-b746-4298-9658-32b0a3bdb673")
 	)
+	(polyline
+		(pts
+			(xy 82.55 90.17) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d8be5273-702d-48fe-b133-a9e3b37f4917")
+	)
 	(wire
 		(pts
 			(xy 86.36 168.91) (xy 86.36 167.64)
@@ -6275,16 +6299,6 @@
 		)
 		(uuid "f8a9f6f5-9281-4237-b043-ab7d91661fa2")
 	)
-	(label "VSSA"
-		(at 166.37 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fad4623e-26c4-409b-aa34-a5689f7ddd92")
-	)
 	(label "LSE_OUT"
 		(at 52.07 151.13 0)
 		(effects
@@ -6787,6 +6801,72 @@
 			(project "steering_wheel_unit"
 				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/49e3c9ae-cbf9-4f58-a1a3-484e0a637fd9"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e6b5038-25d8-44a4-80fe-bf59db6381a3")
+		(property "Reference" "#PWR067"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aa3c4ec-95ee-45cb-9a72-d033d1f7b2fe")
+		)
+		(instances
+			(project ""
+				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/49e3c9ae-cbf9-4f58-a1a3-484e0a637fd9"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
