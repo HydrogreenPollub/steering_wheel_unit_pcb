@@ -593,8 +593,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D6"
-				(at 6.985 -6.35 90)
+			(property "Reference" "D11"
+				(at 1.2701 2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -602,8 +602,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "V10K100DUHM3_H"
-				(at 4.445 -20.32 90)
+			(property "Value" "V6K100DUHM3_H"
+				(at -1.2699 2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -611,7 +611,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Lib:DPAK228P990X239-4N"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 				(at 1.905 3.175 0)
 				(effects
 					(font
@@ -920,6 +920,25 @@
 					)
 				)
 				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -5.08 90)
 					(length 5.08)
 					(name "~"
@@ -929,7 +948,64 @@
 							)
 						)
 					)
-					(number "2"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -948,6 +1024,25 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2196,6 +2291,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Zener 3.3V:MMSZ3V3T1G"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Z1"
+				(at 6.3499 4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMSZ3V3T1G"
+				(at 8.8899 4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOD3716X135N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMSZ2V4T1-D.PDF"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "500 mW Rating on FR-4 or FR-5 Board; Wide Zener Reverse Voltage Range - 2.4 V to 56 V; Package Designed for Optimal Automated Board Assembly; Small Package Size for High Density Applications; ESD Rating of Class 3 (exceeding 16 kV) per the Human Body Model Mechanical Characteristics:; CASE: Void-free, transfer-molded, thermosetting plastic case; FINISH: Corrosion resistant finish, easily solderable; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 Seconds; POLARITY: Cathode indicated by polarit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.35"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-MMSZ3V3T1G"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MMSZ3V3T1G?qs=P4IOph%252Bbot9%252BIt8b4e1MoA%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MMSZ3V3T1G"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MMSZ3V3T1G_1_1"
+				(polyline
+					(pts
+						(xy 4.064 -2.54) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 5.08 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.032) (xy 6.096 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 1.27) (xy 7.62 -1.27) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -2560,6 +2847,12 @@
 		(uuid "ace29289-4947-4629-8b90-5c0496418845")
 	)
 	(junction
+		(at 270.51 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6203b9e-ad1b-4867-ac69-7755e67ca50e")
+	)
+	(junction
 		(at 41.91 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2602,6 +2895,12 @@
 		(uuid "ec1b5a3f-0395-4ff7-89df-7f846e8bbe28")
 	)
 	(junction
+		(at 270.51 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edc220c8-1746-4f55-a31c-dff9385531fd")
+	)
+	(junction
 		(at 166.37 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2635,6 +2934,16 @@
 		(at 187.96 57.15)
 		(uuid "e7943bd7-f5d5-4f9b-8cb8-c7b5ccb7dc8c")
 	)
+	(wire
+		(pts
+			(xy 270.51 52.07) (xy 274.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0183242d-bf5d-4d51-90b4-71390e22a6a7")
+	)
 	(polyline
 		(pts
 			(xy 12.7 92.71) (xy 139.7 92.71)
@@ -2647,7 +2956,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 34.29) (xy 161.29 34.29)
+			(xy 161.29 34.29) (xy 156.21 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2757,6 +3066,26 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 59.69) (xy 270.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b04641b-0233-4af2-a149-ae98cb3af0da")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 165.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1deadad2-278f-453c-a67e-a51aac44a36d")
+	)
+	(wire
+		(pts
 			(xy 73.66 38.1) (xy 73.66 40.64)
 		)
 		(stroke
@@ -2784,6 +3113,16 @@
 			(type default)
 		)
 		(uuid "21bc9b3e-d1ad-4b95-8e48-bf3c2ff5eb6f")
+	)
+	(wire
+		(pts
+			(xy 166.37 45.72) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228fb8d0-35ac-45a2-9e95-ebe6d47d19b1")
 	)
 	(wire
 		(pts
@@ -2824,6 +3163,26 @@
 			(type default)
 		)
 		(uuid "2806ac34-ea76-46b3-84a5-abe2cb4089c7")
+	)
+	(wire
+		(pts
+			(xy 165.1 44.45) (xy 166.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f431068-aa1d-4ae2-9e76-c3af61d04ae8")
+	)
+	(wire
+		(pts
+			(xy 270.51 60.96) (xy 275.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339d6b24-7468-4f27-b7eb-d0f4add75428")
 	)
 	(wire
 		(pts
@@ -2987,7 +3346,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 34.29) (xy 161.29 36.83)
+			(xy 161.29 34.29) (xy 161.29 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3087,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 52.07) (xy 161.29 58.42)
+			(xy 161.29 53.34) (xy 161.29 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 52.07) (xy 267.97 52.07)
+			(xy 264.16 52.07) (xy 270.51 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3427,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 60.96) (xy 269.24 60.96)
+			(xy 257.81 60.96) (xy 270.51 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3527,7 +3886,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape output)
-		(at 267.97 52.07 0)
+		(at 274.32 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3560,7 +3919,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 269.24 60.96 0)
+		(at 275.59 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4205,129 +4564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54CW")
-		(at 161.29 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "378bf885-5682-49d1-a742-f73043fc1a6d")
-		(property "Reference" "D6"
-			(at 167.64 37.465 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V10K100DUHM3_H"
-			(at 181.61 40.005 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Lib:DPAK228P990X239-4N"
-			(at 158.115 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
-			(at 152.908 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
-			(at 153.924 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.09"
-			(at 556.21 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "78-V6K100DUHM3/H"
-			(at 656.21 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/V6K100DUHM3-H?qs=u16ybLDytRbtckVK0zChdQ%3D%3D"
-			(at 756.21 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 856.21 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "V6K100DUHM3/H"
-			(at 956.21 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3ac439c-ccfb-4127-9f46-ce394da56d02")
-		)
-		(pin "1"
-			(uuid "df981686-75cf-44d1-a2cf-1a00540c8ea1")
-		)
-		(pin "3"
-			(uuid "dd23391a-cf07-485f-954a-c4fd180aae74")
-		)
-		(instances
-			(project "steering_wheel_unit"
-				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/61ddc585-00ca-4289-9fa8-971703329eaa"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 208.28 48.26 0)
 		(unit 1)
@@ -4601,6 +4837,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 161.29 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51e0b698-9296-40c3-b367-817bb6bd2cc5")
+		(property "Reference" "D6"
+			(at 167.64 38.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V10K100DUHM3_H"
+			(at 181.61 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lib:V10K100DUHM3H"
+			(at 158.115 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 152.908 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 153.924 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.09"
+			(at 556.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-V6K100DUHM3/H"
+			(at 656.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/V6K100DUHM3-H?qs=u16ybLDytRbtckVK0zChdQ%3D%3D"
+			(at 756.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 856.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "V6K100DUHM3/H"
+			(at 956.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3c05f43-bf18-4182-a6e4-30c908307d92")
+		)
+		(pin "1"
+			(uuid "e99e0e28-8376-4e9f-b8f2-68af307c2695")
+		)
+		(pin "3"
+			(uuid "3f4b59a1-34a8-49b3-8bff-0071c49fa860")
+		)
+		(pin "4"
+			(uuid "444b8330-d1ae-4b91-ba75-3c416fe5807a")
+		)
+		(pin "5"
+			(uuid "5de07614-afb1-4919-a124-3cebc075c7cc")
+		)
+		(pin "7"
+			(uuid "42ff8615-43f9-494e-9fce-c258a9925f9e")
+		)
+		(pin "6"
+			(uuid "6a263c3e-d3bb-4e0f-b31b-df598c84b696")
+		)
+		(pin "8"
+			(uuid "63527500-cce2-4e17-8cd5-efd45c24fc85")
+		)
+		(instances
+			(project "steering_wheel_unit"
+				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/61ddc585-00ca-4289-9fa8-971703329eaa"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 60.96 0)
 		(unit 1)
@@ -4735,6 +5109,127 @@
 			(project "steering_wheel_unit"
 				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/61ddc585-00ca-4289-9fa8-971703329eaa"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Zener 3.3V:MMSZ3V3T1G")
+		(at 270.51 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c015eca-446d-4ac0-ab19-de5b121d25ee")
+		(property "Reference" "Z5"
+			(at 274.574 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSZ3V3T1G"
+			(at 272.288 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lib:SOD3716X135N"
+			(at 176.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMSZ2V4T1-D.PDF"
+			(at 76.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "500 mW Rating on FR-4 or FR-5 Board; Wide Zener Reverse Voltage Range - 2.4 V to 56 V; Package Designed for Optimal Automated Board Assembly; Small Package Size for High Density Applications; ESD Rating of Class 3 (exceeding 16 kV) per the Human Body Model Mechanical Characteristics:; CASE: Void-free, transfer-molded, thermosetting plastic case; FINISH: Corrosion resistant finish, easily solderable; MAXIMUM CASE TEMPERATURE FOR SOLDERING PURPOSES: 260C for 10 Seconds; POLARITY: Cathode indicated by polarit"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at -123.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-MMSZ3V3T1G"
+			(at -223.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MMSZ3V3T1G?qs=P4IOph%252Bbot9%252BIt8b4e1MoA%3D%3D"
+			(at -323.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at -423.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMSZ3V3T1G"
+			(at -523.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58f37958-169e-4d7a-b427-3d692e1de3e0")
+		)
+		(pin "2"
+			(uuid "5c7dc6a4-5579-4555-9283-d74ff961d5ae")
+		)
+		(instances
+			(project "steering_wheel_unit"
+				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/61ddc585-00ca-4289-9fa8-971703329eaa"
+					(reference "Z5")
 					(unit 1)
 				)
 			)

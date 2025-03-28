@@ -33,4 +33,6 @@
   (lib (name "TPS62933DRLR")(type "KiCad")(uri "${KIPRJMOD}/Lib/TPS62933DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "UJ20-C-V-C-2-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/Lib/UJ20-C-V-C-2-SMT-TR.kicad_sym")(options "")(descr ""))
   (lib (name "UJ20-C-V-G-SMT-P16-TR")(type "KiCad")(uri "${KIPRJMOD}/Lib/UJ20-C-V-G-SMT-P16-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "ABM11W-24.0000MHZ-8-D1X-T3")(type "KiCad")(uri "${KIPRJMOD}/Lib/ABM11W-24.0000MHZ-8-D1X-T3.kicad_sym")(options "")(descr ""))
+  (lib (name "hydrogreen_grphics")(type "KiCad")(uri "${KIPRJMOD}/Lib/hydrogreen_grphics.kicad_mod")(options "")(descr ""))
 )
