@@ -3661,12 +3661,6 @@
 		(uuid "08b801c7-fceb-406a-96ee-41450f62294a")
 	)
 	(junction
-		(at 99.06 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0da44957-b466-4c7b-bacb-d897cf4ec37e")
-	)
-	(junction
 		(at 240.03 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3845,18 +3839,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5d8e625-f796-4ea2-bcf8-8fdb29f161bc")
-	)
-	(junction
-		(at 102.87 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b92810ba-8419-4948-8bd4-02a6cab3b22f")
-	)
-	(junction
-		(at 106.68 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf2f3ff7-756f-44df-b720-6807362ef60a")
 	)
 	(junction
 		(at 219.71 25.4)
@@ -4139,16 +4121,6 @@
 			(type default)
 		)
 		(uuid "1cc7a86c-3115-4b7c-b263-1a8315ac79da")
-	)
-	(wire
-		(pts
-			(xy 114.3 113.03) (xy 114.3 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d54bd99-0f9c-4e19-898d-86dce0d7cf64")
 	)
 	(wire
 		(pts
@@ -4492,16 +4464,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 109.22) (xy 91.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b7247a-b7b4-42fd-be7e-749b3b5099bb")
-	)
-	(wire
-		(pts
 			(xy 92.71 179.07) (xy 92.71 177.8)
 		)
 		(stroke
@@ -4692,16 +4654,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 109.22) (xy 106.68 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cfc5c27-7c09-4f5c-bea6-b8cf9b7af68b")
-	)
-	(wire
-		(pts
 			(xy 53.34 151.13) (xy 60.96 151.13)
 		)
 		(stroke
@@ -4762,16 +4714,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 113.03) (xy 114.3 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69f03a1c-57c2-48f0-b2b7-da5db7792d53")
-	)
-	(wire
-		(pts
 			(xy 175.26 100.33) (xy 193.04 100.33)
 		)
 		(stroke
@@ -4789,16 +4731,6 @@
 			(type default)
 		)
 		(uuid "6aaa1981-028d-48b3-95cb-c60acfcc45af")
-	)
-	(wire
-		(pts
-			(xy 102.87 113.03) (xy 106.68 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cb97104-5840-420c-997b-eef2f5375ab0")
 	)
 	(wire
 		(pts
@@ -5252,16 +5184,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 113.03) (xy 99.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47ff5c9-9f23-4d46-a65e-b65f97550232")
-	)
-	(wire
-		(pts
 			(xy 222.25 54.61) (xy 222.25 50.8)
 		)
 		(stroke
@@ -5349,16 +5271,6 @@
 			(type default)
 		)
 		(uuid "ae6bfdef-d6da-47a4-b9a8-2f36363116e4")
-	)
-	(wire
-		(pts
-			(xy 102.87 115.57) (xy 102.87 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec69a6b-eb31-4f56-b441-3138271a1131")
 	)
 	(wire
 		(pts
@@ -5872,16 +5784,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 109.22) (xy 99.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4431acc-42e2-4e50-be5d-8a88a942caa3")
-	)
-	(wire
-		(pts
 			(xy 162.56 123.19) (xy 162.56 124.46)
 		)
 		(stroke
@@ -5889,16 +5791,6 @@
 			(type default)
 		)
 		(uuid "f4ccd936-ef60-4533-a6b9-e525818458c4")
-	)
-	(wire
-		(pts
-			(xy 99.06 113.03) (xy 102.87 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61daf70-6235-4c0b-b45e-6fbceaed0d4c")
 	)
 	(wire
 		(pts
@@ -10117,72 +10009,6 @@
 			(project "steering_wheel_unit"
 				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/49e3c9ae-cbf9-4f58-a1a3-484e0a637fd9"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 102.87 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac1ae6cd-9473-4832-87f9-76c0f993170c")
-		(property "Reference" "#PWR073"
-			(at 102.87 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2350922c-06ab-4b9f-acdb-aedc7f3ac83f")
-		)
-		(instances
-			(project "steering_wheel_unit"
-				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/49e3c9ae-cbf9-4f58-a1a3-484e0a637fd9"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
