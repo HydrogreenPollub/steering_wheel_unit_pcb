@@ -9359,8 +9359,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9553eb08-9ab1-4bcb-88ac-9525b57eb534")
-		(property "Reference" "Z3"
-			(at 153.035 143.5099 90)
+		(property "Reference" "Z1"
+			(at 152.4 141.7319 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +9369,7 @@
 			)
 		)
 		(property "Value" "MMSZ3V3T1G"
-			(at 153.035 146.0499 90)
+			(at 152.4 144.2719 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,7 +9465,7 @@
 		(instances
 			(project "steering_wheel_unit"
 				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/49e3c9ae-cbf9-4f58-a1a3-484e0a637fd9"
-					(reference "Z3")
+					(reference "Z1")
 					(unit 1)
 				)
 			)
@@ -10423,8 +10423,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc59355d-a38b-434e-8664-af9d2e5e7a7b")
-		(property "Reference" "Z4"
-			(at 266.065 139.6999 90)
+		(property "Reference" "Z2"
+			(at 265.43 137.9219 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,7 +10433,7 @@
 			)
 		)
 		(property "Value" "MMSZ3V3T1G"
-			(at 266.065 142.2399 90)
+			(at 265.43 140.4619 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,7 +10529,7 @@
 		(instances
 			(project "steering_wheel_unit"
 				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/49e3c9ae-cbf9-4f58-a1a3-484e0a637fd9"
-					(reference "Z4")
+					(reference "Z2")
 					(unit 1)
 				)
 			)

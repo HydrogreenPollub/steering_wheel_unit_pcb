@@ -5123,7 +5123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c015eca-446d-4ac0-ab19-de5b121d25ee")
-		(property "Reference" "Z5"
+		(property "Reference" "Z3"
 			(at 274.574 55.88 90)
 			(effects
 				(font
@@ -5229,7 +5229,7 @@
 		(instances
 			(project "steering_wheel_unit"
 				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89/61ddc585-00ca-4289-9fa8-971703329eaa"
-					(reference "Z5")
+					(reference "Z3")
 					(unit 1)
 				)
 			)

@@ -8767,14 +8767,13 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be8b0f8-f99d-4b52-b356-d389c5688d0c")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 85.09 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "LCD_SOCKET"
@@ -8784,7 +8783,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B9B-PH-K_1x09_P2.00mm_Vertical"
@@ -8844,7 +8842,7 @@
 		(instances
 			(project "steering_wheel_unit"
 				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -8860,7 +8858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e608164-8e48-4147-a5db-2f901589608f")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -8924,7 +8922,7 @@
 		(instances
 			(project "steering_wheel_unit"
 				(path "/b435671d-bfd7-4707-b36e-3eecb7fa1f89"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 			)
